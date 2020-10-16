@@ -30,7 +30,7 @@ typedef struct Heap{
 } Heap;
 ````
 
-![image](https://i.ibb.co/607VbFL/image.png)
+![image](https://i.ibb.co/VM5CM3H/image.png)
 
 Como se pueden dar cuenta, el montículo no es más que un arreglo de datos de tipo `heapElem`. Cada dato almacena el dato (`void*`) y un valor o *prioridad* (`int`).
 
