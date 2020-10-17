@@ -79,4 +79,4 @@ Luego para compilar y ejecutar:
     gcc main.c heap.c -o main
     ./main 
 
-Y voilá!
+Y listo!
