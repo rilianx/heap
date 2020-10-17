@@ -5,7 +5,7 @@
 # Everything below will go to the file 'log':
 
 target_file="heap.c"
-testcode="test.c list.c"
+testcode="test.c"
 
 #Verifca si se realizaron cambios 
 CHANGED=$(git diff --ignore-space-at-eol -b -w --ignore-blank-lines $target_file)
