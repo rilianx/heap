@@ -12,7 +12,7 @@ int main( int argc, char *argv[] ){
     printf("Se ingresan elementos a la cola con prioridad\n");
     for(i=0;i<10;i++){
         int p=rand()%100;
-        itoa(p,j,10); //se convierte el número en string j
+        sprintf (j, "%d",p); //se convierte el número en string j
         heap_push(heap,strdup(j),p);  //se guarda el string con prioridad p
         printf("%s,",j);
     }
